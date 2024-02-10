@@ -1,0 +1,8 @@
+.resumen{
+    display: flex;
+    margin-top: 30px;
+}
+
+.cantidad{
+    margin-right: 100px;
+}

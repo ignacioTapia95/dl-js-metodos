@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Todo List</h1>
+        <p>Nueva Tarea</p>
+        <input id="nuevaTarea">
+        <button id="agregarTarea" type="button" class="btn btn-success">Agregar</button>
+        <div class="resumen">
+            <div class="cantidad">
+                <p id="totalTareas">Total: 0</p>
+                <p id="totalTareasRealizadas">Realizadas: 0</p>
+            </div>
+            <div class="listaTareas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarea</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaTareas">
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c3d475bfe6.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
